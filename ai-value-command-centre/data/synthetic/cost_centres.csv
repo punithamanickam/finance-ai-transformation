@@ -1,0 +1,15 @@
+cost_centre_id,bu_id,name
+CC-CUS-AI,BU-CUS,Customer Operations AI programme
+CC-CUS-OPS,BU-CUS,Customer Operations operations
+CC-SAL-AI,BU-SAL,Sales & Commercial AI programme
+CC-SAL-OPS,BU-SAL,Sales & Commercial operations
+CC-SCM-AI,BU-SCM,Supply Chain & Manufacturing AI programme
+CC-SCM-OPS,BU-SCM,Supply Chain & Manufacturing operations
+CC-FIN-AI,BU-FIN,Finance AI programme
+CC-FIN-OPS,BU-FIN,Finance operations
+CC-TEC-AI,BU-TEC,Technology & Security AI programme
+CC-TEC-OPS,BU-TEC,Technology & Security operations
+CC-COR-AI,BU-COR,Corporate Services AI programme
+CC-COR-OPS,BU-COR,Corporate Services operations
+CC-ENG-AI,BU-ENG,Engineering AI programme
+CC-ENG-OPS,BU-ENG,Engineering operations

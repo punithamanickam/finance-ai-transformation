@@ -1,0 +1,11 @@
+vendor_id,name,vendor_type
+V-HPE-INF,HPE (AI infrastructure),technology
+V-HPE-NET,HPE (networking),technology
+V-HPE-GL,HPE GreenLake (consumption),technology
+V-SW-A,AI software vendor A,software
+V-SAAS-B,SaaS provider B,software
+V-SI-C,Systems integrator C,services
+V-SVC-D,Managed services provider D,services
+V-DATA-E,Data provider E,data
+V-TRN-F,Training provider F,services
+V-PC-G,Public cloud provider G,technology

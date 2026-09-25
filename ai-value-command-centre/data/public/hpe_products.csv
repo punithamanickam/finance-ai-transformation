@@ -1,0 +1,11 @@
+product_id,name,category,public_description,source_id
+HPE-PCAI,HPE Private Cloud AI,HPE Private Cloud AI,"Announced June 2024 as a key offering of 'NVIDIA AI Computing by HPE': a co-developed private cloud for AI combining NVIDIA AI computing, networking and software with HPE AI storage, compute and HPE GreenLake cloud; offered in four right-sized configurations.",SRC-02
+HPE-NVIDIA,NVIDIA AI Computing by HPE,AI ecosystem,"Portfolio of co-developed HPE and NVIDIA AI solutions with joint go-to-market, including system-integrator partners.",SRC-02
+HPE-GL,HPE GreenLake cloud,HPE GreenLake,"Described in HPE's FY2025 10-K as a centrepiece of HPE's strategy, offering a hybrid cloud experience with pay-per-use consumption; 52,000 customers in Q3 FY2026.",SRC-09
+HPE-OPSRAMP,HPE OpsRamp,HPE GreenLake,IT operations management / observability software acquired in 2023 and integrated with HPE GreenLake; an OpsRamp AI copilot was announced as part of Private Cloud AI.,SRC-02
+HPE-PROLIANT,HPE ProLiant servers,AI Infrastructure,Compute servers named in the Private Cloud AI infrastructure stack; server revenue sits in HPE's Cloud & AI segment from FY2026.,SRC-02
+HPE-CRAY,HPE Cray supercomputing,AI Infrastructure,HPE Cray EX systems powered the three exascale systems on the November 2024 TOP500 list; the 10-K cites supercomputing and direct liquid cooling as AI differentiators.,SRC-09
+HPE-ALLETRA,HPE Alletra Storage MP,Storage,"HPE storage platform; over 7,400 Alletra MP arrays shipped by the end of FY2025, and the X10000 achieved NVIDIA-Certified Storage (foundation level) per NVIDIA in June 2026.",SRC-07
+HPE-ARUBA,HPE Aruba Networking,Networking,"HPE's networking portfolio, reported in the Networking segment (FY2025 revenue $6.85B).",SRC-09
+HPE-JUNIPER,HPE Juniper Networking (Mist AI),Networking,"Juniper Networks, acquired on 2 July 2025, doubling HPE's networking business; the DOJ settlement required limited access to Juniper's Mist AI technology.",SRC-05
+HPE-SERVICES,HPE Services,Services,HPE Advisory and Professional Services offer consultative-led services and implementation; HPE Financial Services offers financing to help customers adopt technology including AI.,SRC-09

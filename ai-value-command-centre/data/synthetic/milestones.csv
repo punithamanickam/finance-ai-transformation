@@ -1,0 +1,61 @@
+initiative_id,milestone,planned_date,actual_date,forecast_date,status
+AI-001,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-001,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-001,Pilot,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-001,Go-live,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-001,Scale-out complete,2026-02-28,2026-02-28,2026-02-28,Complete
+AI-002,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-002,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-002,Pilot,2025-11-30,2025-12-31,2025-12-31,Complete late
+AI-002,Go-live,2025-12-31,2026-01-31,2026-01-31,Complete late
+AI-002,Scale-out complete,2026-03-31,2026-04-30,2026-04-30,Complete late
+AI-003,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-003,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-003,Pilot,2025-11-30,2026-01-31,2026-01-31,Complete late
+AI-003,Go-live,2025-12-31,2026-02-28,2026-02-28,Complete late
+AI-003,Scale-out complete,2026-03-31,2026-05-31,2026-05-31,Complete late
+AI-004,Business case approved,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-004,Build start,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-004,Pilot,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-004,Go-live,2025-12-31,2025-12-31,2025-12-31,Complete
+AI-004,Scale-out complete,2026-03-31,2026-03-31,2026-03-31,Complete
+AI-005,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-005,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-005,Pilot,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-005,Go-live,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-005,Scale-out complete,2026-02-28,2026-02-28,2026-02-28,Complete
+AI-006,Business case approved,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-006,Build start,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-006,Pilot,2025-12-31,2025-12-31,2025-12-31,Complete
+AI-006,Go-live,2026-01-31,2026-01-31,2026-01-31,Complete
+AI-006,Scale-out complete,2026-04-30,2026-04-30,2026-04-30,Complete
+AI-007,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-007,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-007,Pilot,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-007,Go-live,2025-12-31,2025-12-31,2025-12-31,Complete
+AI-007,Scale-out complete,2026-03-31,2026-03-31,2026-03-31,Complete
+AI-008,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-008,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-008,Pilot,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-008,Go-live,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-008,Scale-out complete,2026-02-28,2026-02-28,2026-02-28,Complete
+AI-009,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-009,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-009,Pilot,2025-12-31,2026-01-31,2026-01-31,Complete late
+AI-009,Go-live,2026-01-31,2026-02-28,2026-02-28,Complete late
+AI-009,Scale-out complete,2026-04-30,2026-05-31,2026-05-31,Complete late
+AI-010,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-010,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-010,Pilot,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-010,Go-live,2025-12-31,2025-12-31,2025-12-31,Complete
+AI-010,Scale-out complete,2026-03-31,2026-03-31,2026-03-31,Complete
+AI-011,Business case approved,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-011,Build start,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-011,Pilot,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-011,Go-live,2025-12-31,2025-12-31,2025-12-31,Complete
+AI-011,Scale-out complete,2026-03-31,2026-03-31,2026-03-31,Complete
+AI-012,Business case approved,2025-08-31,2025-08-31,2025-08-31,Complete
+AI-012,Build start,2025-09-30,2025-09-30,2025-09-30,Complete
+AI-012,Pilot,2025-10-31,2025-10-31,2025-10-31,Complete
+AI-012,Go-live,2025-11-30,2025-11-30,2025-11-30,Complete
+AI-012,Scale-out complete,2026-02-28,2026-02-28,2026-02-28,Complete

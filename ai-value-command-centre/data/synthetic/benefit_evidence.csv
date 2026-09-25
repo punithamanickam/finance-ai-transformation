@@ -1,0 +1,58 @@
+evidence_id,benefit_id,evidence_kind,dataset,period_from,period_to,amount_covered,validated_by,quality,evidence_date
+EV-AI-001-B1-1,AI-001-B1,GL journal extract,financials,2025-11,2026-08,5100000.0,Finance business partner,high,2026-08-31
+EV-AI-001-B1-2,AI-001-B1,Business-owner confirmation,benefits,2025-11,2026-08,300000.0,Benefit owner,low,2026-09-10
+EV-AI-001-B1-0,AI-001-B1,Approved business case,assumptions,2025-09,2026-08,5400000.0,Investment committee,low,2025-08-28
+EV-AI-001-B2-1,AI-001-B2,System telemetry export,ai_usage,2025-11,2026-08,1200000.0,Benefit owner,medium,2026-08-31
+EV-AI-001-B2-2,AI-001-B2,Business-owner confirmation,benefits,2025-11,2026-08,300000.0,Benefit owner,low,2026-09-10
+EV-AI-001-B2-0,AI-001-B2,Approved business case,assumptions,2025-09,2026-08,1600000.0,Investment committee,low,2025-08-28
+EV-AI-002-B1-1,AI-002-B1,GL journal extract,financials,2026-01,2026-08,800000.0,Benefit owner,medium,2026-08-31
+EV-AI-002-B1-2,AI-002-B1,Business-owner confirmation,benefits,2026-01,2026-08,1100000.0,Benefit owner,low,2026-09-10
+EV-AI-002-B1-0,AI-002-B1,Approved business case,assumptions,2025-09,2026-08,2400000.0,Investment committee,low,2025-08-28
+EV-AI-002-B2-1,AI-002-B2,System telemetry export,ai_usage,2026-01,2026-08,600000.0,Benefit owner,medium,2026-08-31
+EV-AI-002-B2-2,AI-002-B2,Business-owner confirmation,benefits,2026-01,2026-08,100000.0,Benefit owner,low,2026-09-10
+EV-AI-002-B2-0,AI-002-B2,Approved business case,assumptions,2025-09,2026-08,800000.0,Investment committee,low,2025-08-28
+EV-AI-003-B1-1,AI-003-B1,GL journal extract,financials,2026-02,2026-08,1400000.0,Finance business partner,medium,2026-08-31
+EV-AI-003-B1-2,AI-003-B1,Business-owner confirmation,benefits,2026-02,2026-08,200000.0,Benefit owner,low,2026-09-10
+EV-AI-003-B1-0,AI-003-B1,Approved business case,assumptions,2025-09,2026-08,5000000.0,Investment committee,low,2025-08-28
+EV-AI-003-B2-1,AI-003-B2,GL journal extract,financials,2026-02,2026-08,700000.0,Benefit owner,medium,2026-08-31
+EV-AI-003-B2-2,AI-003-B2,Business-owner confirmation,benefits,2026-02,2026-08,200000.0,Benefit owner,low,2026-09-10
+EV-AI-003-B2-0,AI-003-B2,Approved business case,assumptions,2025-09,2026-08,2500000.0,Investment committee,low,2025-08-28
+EV-AI-004-B1-1,AI-004-B1,System telemetry export,ai_usage,2025-12,2026-08,1900000.0,Finance business partner,medium,2026-08-31
+EV-AI-004-B1-0,AI-004-B1,Approved business case,assumptions,2025-09,2026-08,1800000.0,Investment committee,low,2025-08-28
+EV-AI-004-B2-1,AI-004-B2,GL journal extract,financials,2025-12,2026-08,600000.0,Finance business partner,medium,2026-08-31
+EV-AI-004-B2-0,AI-004-B2,Approved business case,assumptions,2025-09,2026-08,600000.0,Investment committee,low,2025-08-28
+EV-AI-005-B1-1,AI-005-B1,GL journal extract,financials,2025-11,2026-08,2900000.0,Finance business partner,high,2026-08-31
+EV-AI-005-B1-2,AI-005-B1,Business-owner confirmation,benefits,2025-11,2026-08,100000.0,Benefit owner,low,2026-09-10
+EV-AI-005-B1-0,AI-005-B1,Approved business case,assumptions,2025-09,2026-08,3000000.0,Investment committee,low,2025-08-28
+EV-AI-005-B2-1,AI-005-B2,System telemetry export,ai_usage,2025-11,2026-08,400000.0,Benefit owner,medium,2026-08-31
+EV-AI-005-B2-2,AI-005-B2,Business-owner confirmation,benefits,2025-11,2026-08,100000.0,Benefit owner,low,2026-09-10
+EV-AI-005-B2-0,AI-005-B2,Approved business case,assumptions,2025-09,2026-08,600000.0,Investment committee,low,2025-08-28
+EV-AI-006-B1-1,AI-006-B1,System telemetry export,ai_usage,2026-01,2026-08,1700000.0,Benefit owner,medium,2026-08-31
+EV-AI-006-B1-2,AI-006-B1,Business-owner confirmation,benefits,2026-01,2026-08,900000.0,Benefit owner,low,2026-09-10
+EV-AI-006-B1-0,AI-006-B1,Approved business case,assumptions,2025-09,2026-08,4400000.0,Investment committee,low,2025-08-28
+EV-AI-007-B1-1,AI-007-B1,System telemetry export,ai_usage,2025-12,2026-08,500000.0,Benefit owner,medium,2026-08-31
+EV-AI-007-B1-2,AI-007-B1,Business-owner confirmation,benefits,2025-12,2026-08,700000.0,Benefit owner,low,2026-09-10
+EV-AI-007-B1-0,AI-007-B1,Approved business case,assumptions,2025-09,2026-08,2000000.0,Investment committee,low,2025-08-28
+EV-AI-007-B2-1,AI-007-B2,GL journal extract,financials,2025-12,2026-08,700000.0,Finance business partner,medium,2026-08-31
+EV-AI-007-B2-2,AI-007-B2,Business-owner confirmation,benefits,2025-12,2026-08,100000.0,Benefit owner,low,2026-09-10
+EV-AI-007-B2-0,AI-007-B2,Approved business case,assumptions,2025-09,2026-08,900000.0,Investment committee,low,2025-08-28
+EV-AI-008-B1-1,AI-008-B1,GL journal extract,financials,2025-11,2026-08,6100000.0,Finance business partner,medium,2026-08-31
+EV-AI-008-B1-2,AI-008-B1,Business-owner confirmation,benefits,2025-11,2026-08,200000.0,Benefit owner,low,2026-09-10
+EV-AI-008-B1-0,AI-008-B1,Approved business case,assumptions,2025-09,2026-08,6400000.0,Investment committee,low,2025-08-28
+EV-AI-009-B1-1,AI-009-B1,GL journal extract,financials,2026-02,2026-08,2600000.0,Finance business partner,medium,2026-08-31
+EV-AI-009-B1-2,AI-009-B1,Business-owner confirmation,benefits,2026-02,2026-08,1000000.0,Benefit owner,low,2026-09-10
+EV-AI-009-B1-0,AI-009-B1,Approved business case,assumptions,2025-09,2026-08,3900000.0,Investment committee,low,2025-08-28
+EV-AI-009-B2-1,AI-009-B2,GL journal extract,financials,2026-02,2026-08,200000.0,Benefit owner,medium,2026-08-31
+EV-AI-009-B2-2,AI-009-B2,Business-owner confirmation,benefits,2026-02,2026-08,200000.0,Benefit owner,low,2026-09-10
+EV-AI-009-B2-0,AI-009-B2,Approved business case,assumptions,2025-09,2026-08,600000.0,Investment committee,low,2025-08-28
+EV-AI-010-B1-1,AI-010-B1,GL journal extract,financials,2025-12,2026-08,1500000.0,Benefit owner,medium,2026-08-31
+EV-AI-010-B1-2,AI-010-B1,Business-owner confirmation,benefits,2025-12,2026-08,1500000.0,Benefit owner,low,2026-09-10
+EV-AI-010-B1-0,AI-010-B1,Approved business case,assumptions,2025-09,2026-08,4600000.0,Investment committee,low,2025-08-28
+EV-AI-011-B1-1,AI-011-B1,System telemetry export,ai_usage,2025-12,2026-08,1100000.0,Benefit owner,medium,2026-08-31
+EV-AI-011-B1-2,AI-011-B1,Business-owner confirmation,benefits,2025-12,2026-08,100000.0,Benefit owner,low,2026-09-10
+EV-AI-011-B1-0,AI-011-B1,Approved business case,assumptions,2025-09,2026-08,1200000.0,Investment committee,low,2025-08-28
+EV-AI-011-B2-1,AI-011-B2,GL journal extract,financials,2025-12,2026-08,800000.0,Finance business partner,medium,2026-08-31
+EV-AI-011-B2-0,AI-011-B2,Approved business case,assumptions,2025-09,2026-08,900000.0,Investment committee,low,2025-08-28
+EV-AI-012-B1-1,AI-012-B1,System telemetry export,ai_usage,2025-11,2026-08,1900000.0,Benefit owner,medium,2026-08-31
+EV-AI-012-B1-2,AI-012-B1,Business-owner confirmation,benefits,2025-11,2026-08,1400000.0,Benefit owner,low,2026-09-10
+EV-AI-012-B1-0,AI-012-B1,Approved business case,assumptions,2025-09,2026-08,3500000.0,Investment committee,low,2025-08-28

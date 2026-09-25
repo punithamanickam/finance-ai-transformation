@@ -1,0 +1,8 @@
+bu_id,company_id,name,leader_role,headcount
+BU-CUS,MEG,Customer Operations,Chief Customer Officer,3900
+BU-SAL,MEG,Sales & Commercial,Chief Revenue Officer,2700
+BU-SCM,MEG,Supply Chain & Manufacturing,Chief Operations Officer,5200
+BU-FIN,MEG,Finance,Chief Financial Officer,850
+BU-TEC,MEG,Technology & Security,Chief Information Officer,1950
+BU-COR,MEG,Corporate Services,Chief People Officer,1300
+BU-ENG,MEG,Engineering,Chief Technology Officer,2500

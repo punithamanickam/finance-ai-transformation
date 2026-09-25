@@ -1,0 +1,59 @@
+cluster_id,month,cluster_name,platform,region,hpe_product_id,gpus,gpu_hours_capacity,gpu_hours_used,utilisation,infrastructure_cost,energy_kwh
+PCAI-EMEA-01,2025-09,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,8,5840.0,401.0,0.0687,232261.76,1901.0
+PCAI-EMEA-01,2025-10,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,8,5840.0,938.4,0.1607,416588.63,2492.0
+PCAI-EMEA-01,2025-11,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,16,11680.0,2688.5,0.2302,345936.54,5877.0
+PCAI-EMEA-01,2025-12,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,16,11680.0,5283.0,0.4523,316840.32,8731.0
+PCAI-EMEA-01,2026-01,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,24,17520.0,7507.9,0.4285,282836.65,12639.0
+PCAI-EMEA-01,2026-02,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,24,17520.0,9880.4,0.5639,284391.96,15248.0
+PCAI-EMEA-01,2026-03,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,24,17520.0,10404.8,0.5939,276097.02,15825.0
+PCAI-EMEA-01,2026-04,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,24,17520.0,10881.9,0.6211,288674.49,16350.0
+PCAI-EMEA-01,2026-05,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,24,17520.0,10249.3,0.585,273201.83,15654.0
+PCAI-EMEA-01,2026-06,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,28,20440.0,10982.4,0.5373,291469.01,17191.0
+PCAI-EMEA-01,2026-07,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,28,20440.0,10587.4,0.518,292889.88,16756.0
+PCAI-EMEA-01,2026-08,Private AI cluster EMEA,HPE Private Cloud AI,EMEA,HPE-PCAI,28,20440.0,11283.9,0.5521,294956.17,17522.0
+PCAI-US-01,2025-09,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,8,5840.0,311.4,0.0533,329613.82,1803.0
+PCAI-US-01,2025-10,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,8,5840.0,677.6,0.116,413735.73,2205.0
+PCAI-US-01,2025-11,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,677.6,0.058,413235.88,3665.0
+PCAI-US-01,2025-12,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,2126.3,0.182,387518.91,5259.0
+PCAI-US-01,2026-01,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,3962.1,0.3392,377189.36,7278.0
+PCAI-US-01,2026-02,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,5713.9,0.4892,285091.35,9205.0
+PCAI-US-01,2026-03,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,8018.5,0.6865,278603.34,11740.0
+PCAI-US-01,2026-04,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,9364.4,0.8018,287045.93,13221.0
+PCAI-US-01,2026-05,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,16,11680.0,9247.4,0.7917,279082.51,13092.0
+PCAI-US-01,2026-06,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,24,17520.0,9583.9,0.547,472330.73,14922.0
+PCAI-US-01,2026-07,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,24,17520.0,9389.8,0.5359,468551.33,14709.0
+PCAI-US-01,2026-08,Private AI cluster Americas,HPE Private Cloud AI,Americas,HPE-PCAI,24,17520.0,9015.4,0.5146,455928.18,14297.0
+GL-US-01,2025-09,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,4,2920.0,1132.9,0.388,277864.73,1976.0
+GL-US-01,2025-10,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,4,2920.0,1132.9,0.388,282411.06,1976.0
+GL-US-01,2025-11,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,8,5840.0,1011.8,0.1732,271764.72,2573.0
+GL-US-01,2025-12,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,8,5840.0,1342.6,0.2299,210685.72,2937.0
+GL-US-01,2026-01,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,8,5840.0,2718.2,0.4655,193665.48,4450.0
+GL-US-01,2026-02,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,8,5840.0,4314.2,0.7387,196200.67,6206.0
+GL-US-01,2026-03,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6071.8,0.6931,190867.62,8869.0
+GL-US-01,2026-04,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6678.7,0.7624,191578.57,9537.0
+GL-US-01,2026-05,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6696.6,0.7645,191062.69,9556.0
+GL-US-01,2026-06,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6910.4,0.7889,192701.76,9791.0
+GL-US-01,2026-07,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6877.5,0.7851,190589.16,9755.0
+GL-US-01,2026-08,GreenLake AI compute Americas,HPE GreenLake cloud,Americas,HPE-GL,12,8760.0,6766.4,0.7724,189215.21,9633.0
+GL-APJ-01,2025-09,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,4,2920.0,884.1,0.3028,261271.67,1703.0
+GL-APJ-01,2025-10,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,4,2920.0,884.1,0.3028,261498.13,1703.0
+GL-APJ-01,2025-11,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,4,2920.0,1144.2,0.3919,215354.11,1989.0
+GL-APJ-01,2025-12,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,8,5840.0,1883.8,0.3226,217499.27,3532.0
+GL-APJ-01,2026-01,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,8,5840.0,2531.4,0.4335,220170.82,4245.0
+GL-APJ-01,2026-02,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,8,5840.0,4179.0,0.7156,182464.98,6057.0
+GL-APJ-01,2026-03,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,5198.9,0.5935,175206.56,7909.0
+GL-APJ-01,2026-04,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,6172.8,0.7047,177702.54,8980.0
+GL-APJ-01,2026-05,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,7287.1,0.8319,182948.79,10206.0
+GL-APJ-01,2026-06,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,7199.9,0.8219,181552.77,10110.0
+GL-APJ-01,2026-07,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,7306.0,0.834,178603.18,10227.0
+GL-APJ-01,2026-08,GreenLake AI compute APJ,HPE GreenLake cloud,APJ,HPE-GL,12,8760.0,7183.0,0.82,178584.2,10091.0
+PUB-GPU-01,2025-11,Public cloud GPU burst,Public cloud (non-HPE),Global,,4,2920.0,980.2,0.3357,62232.76,1808.0
+PUB-GPU-01,2025-12,Public cloud GPU burst,Public cloud (non-HPE),Global,,4,2920.0,1911.0,0.6545,66330.62,2832.0
+PUB-GPU-01,2026-01,Public cloud GPU burst,Public cloud (non-HPE),Global,,4,2920.0,2832.4,0.97,49685.22,3846.0
+PUB-GPU-01,2026-02,Public cloud GPU burst,Public cloud (non-HPE),Global,,8,5840.0,4476.3,0.7665,50077.78,6384.0
+PUB-GPU-01,2026-03,Public cloud GPU burst,Public cloud (non-HPE),Global,,8,5840.0,4809.1,0.8235,45635.96,6750.0
+PUB-GPU-01,2026-04,Public cloud GPU burst,Public cloud (non-HPE),Global,,8,5840.0,5355.9,0.9171,62463.76,7351.0
+PUB-GPU-01,2026-05,Public cloud GPU burst,Public cloud (non-HPE),Global,,8,5840.0,5252.6,0.8994,73311.54,7238.0
+PUB-GPU-01,2026-06,Public cloud GPU burst,Public cloud (non-HPE),Global,,10,7300.0,5471.0,0.7495,70659.51,7843.0
+PUB-GPU-01,2026-07,Public cloud GPU burst,Public cloud (non-HPE),Global,,10,7300.0,5235.3,0.7172,72616.27,7584.0
+PUB-GPU-01,2026-08,Public cloud GPU burst,Public cloud (non-HPE),Global,,10,7300.0,5106.1,0.6995,68713.65,7442.0

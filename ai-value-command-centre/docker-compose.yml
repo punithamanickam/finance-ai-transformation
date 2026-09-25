@@ -1,0 +1,26 @@
+# Local stack: API + web app with PostgreSQL. `docker compose up --build`, then open http://localhost:8000
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: avcc
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-avcc-local-only}
+      POSTGRES_DB: avcc
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avcc"]
+      interval: 5s
+      retries: 10
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://avcc:${POSTGRES_PASSWORD:-avcc-local-only}@db:5432/avcc
+      AVCC_SECRET_KEY: ${AVCC_SECRET_KEY:?set AVCC_SECRET_KEY in .env}
+      AVCC_DEMO_PASSWORD: ${AVCC_DEMO_PASSWORD:-demo}
+      LLM_PROVIDER: ${LLM_PROVIDER:-auto}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    command: sh -c "python -m src.db.database && uvicorn src.api.main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"

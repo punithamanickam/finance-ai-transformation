@@ -1,0 +1,432 @@
+{
+  "company": "Hewlett Packard Enterprise (HPE)",
+  "compiled_on": "2026-09-25",
+  "caveats": [
+    "Quotes are verbatim from the cited source text as retrieved (PDF/HTML text extraction; minor whitespace normalised).",
+    "Order/backlog figures are company KPIs, unaudited and subject to adjustment per HPE's own footnotes.",
+    "hpe.com newsroom pages were not reachable from the research environment; HPE press releases were sourced from SEC 8-K exhibits and investors.hpe.com, and the June 2024 NVIDIA/HPE joint release from NVIDIA's newsroom."
+  ],
+  "facts": [
+    {
+      "id": "AI-01",
+      "topic": "AI systems orders",
+      "claim": "HPE booked $2.4B of AI systems orders in Q3 FY2026, up over 30% sequentially.",
+      "quote": "AI systems orders of $2.4 billion increased over 30% sequentially, reflecting broad-based demand across customer segments.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript",
+      "note": "Speaker: Marie Myers, CFO"
+    },
+    {
+      "id": "AI-02",
+      "topic": "AI systems revenue",
+      "claim": "AI systems revenue in Q3 FY2026 was almost $1.6B.",
+      "quote": "AI systems revenue for the quarter was almost $1.6 billion. We expect AI systems revenue to improve sequentially in Q4 given timing of backlog conversion.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript",
+      "note": "Speaker: Marie Myers, CFO"
+    },
+    {
+      "id": "AI-03",
+      "topic": "AI backlog",
+      "claim": "AI Systems backlog rose to $6.8B exiting Q3 FY2026 (+14% sequentially).",
+      "quote": "$2.4B in new AI Systems orders, with backlog increasing to $6.8B",
+      "source_title": "HPE Q3 FY2026 earnings presentation (slides)",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings presentation",
+      "note": "Transcript: 'Our AI systems backlog increased 14% sequentially to a new high'"
+    },
+    {
+      "id": "AI-04",
+      "topic": "AI backlog",
+      "claim": "Total AI backlog (AI Systems + Networks for AI) was a record $7.6B exiting Q3 FY2026; total AI orders in Q3 were $3.1B and AI YTD orders $6.7B.",
+      "quote": "$7.6B AI backlog ... Exiting Q3 FY26 ... $3.1B AI orders booked in Q3 FY26 ... $6.7B AI YTD orders",
+      "source_title": "HPE Q3 FY2026 earnings presentation (slides)",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings presentation",
+      "note": "Slide 9. Footnote: orders/backlog remain subject to adjustment; Networks for AI backlog tracking commenced Q1 FY26; AI Systems include products and services, Networks for AI excludes services."
+    },
+    {
+      "id": "AI-05",
+      "topic": "AI customer mix",
+      "claim": "59% of cumulative AI orders (since Q1 FY23) came from sovereign and enterprise customers as of Q3 FY2026.",
+      "quote": "59% Sovereign + enterprise cumulative AI order mix",
+      "source_title": "HPE Q3 FY2026 earnings presentation (slides)",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings presentation",
+      "note": "Q4 FY25 call said 'more than 60%'; the slide figure is 59% as of Q3 FY26."
+    },
+    {
+      "id": "AI-06",
+      "topic": "Networks for AI",
+      "claim": "Networks for AI orders reached $0.7B in Q3 FY2026; cumulative Networks-for-AI orders reached $2.2B and the FY2026 year-end target was raised to $2.5B-$3.0B.",
+      "quote": "Cumulative networks for AI orders were $2.2 billion, surpassing our FY 2026 target. As a result, we are increasing our yearend target to $2.5 billion to $3 billion.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript"
+    },
+    {
+      "id": "AI-07",
+      "topic": "Hyperscaler inferencing deal",
+      "claim": "After Q3 FY2026 quarter end HPE was awarded a $3.5B inferencing server deal with a hyperscaler customer.",
+      "quote": "Post Q3, HPE was awarded a $3.5B inferencing deal with hyperscaler customer",
+      "source_title": "HPE Q3 FY2026 earnings presentation (slides)",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-presentation.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings presentation",
+      "note": "Customer not named in source."
+    },
+    {
+      "id": "AI-08",
+      "topic": "Oracle collaboration",
+      "claim": "On Sep 2, 2026 HPE announced expanded collaboration with Oracle; Oracle will deploy HPE Juniper networking routers and switches in AI cloud build-outs. A warrant for up to 4,156,466 HPE shares was issued to Oracle on July 2, 2026 tied to purchase milestones.",
+      "quote": "Oracle will deploy HPE Juniper networking routers and switches across one of the largest AI cloud infrastructure build outs.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript",
+      "note": "10-Q (filed 2026-09-03) discloses the warrant: 'issued in connection with the Holder entering into a strategic collaboration with us to deploy our networking solutions in the Holder's AI data centers.'"
+    },
+    {
+      "id": "AI-09",
+      "topic": "AI systems orders",
+      "claim": "In Q2 FY2026 HPE booked $1.8B of new AI systems orders, bringing cumulative AI systems bookings to $16.4B; it entered Q3 with $5.9B of backlog.",
+      "quote": "We booked $1.8 billion in new AI systems orders, bringing cumulative AI systems bookings to $16.4 billion. We entered Q3 with $5.9 billion in backlog, primarily composed of enterprise and sovereign orders.",
+      "source_title": "HPE Q2 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-transcript.pdf",
+      "date": "2026-06-01",
+      "source_type": "earnings call transcript",
+      "note": "Speaker: Antonio Neri, CEO"
+    },
+    {
+      "id": "AI-10",
+      "topic": "AI backlog",
+      "claim": "HPE entered Q2 FY2026 with a record AI systems backlog of $5B; Q1 FY2026 AI systems orders were $1.2B, largely enterprise-driven.",
+      "quote": "We entered Q2 with a record AI systems backlog of $5 billion, primarily composed of enterprise and sovereign orders, and our sales pipeline remains multiples of our backlog.",
+      "source_title": "HPE Q1 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q1-2026/hpe-q1-26-earnings-transcript.pdf",
+      "date": "2026-03-09",
+      "source_type": "earnings call transcript",
+      "note": "Also: 'AI systems orders of 1.2 billion were largely enterprise-driven.'"
+    },
+    {
+      "id": "AI-11",
+      "topic": "AI systems orders",
+      "claim": "FY2025 AI server orders totaled $6.8B and cumulative AI orders since Q1 FY2023 reached $13.4B; Q4 FY2025 AI systems orders were $1.9B.",
+      "quote": "our AI server business also had good traction with orders totaling $6.8 billion for the fiscal year and cumulative AI orders since Q1 fiscal 2023 reaching $13.4 billion.",
+      "source_title": "HPE Q4 FY2025 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q4-2025/q4-earnings-transcript-final.pdf",
+      "date": "2025-12-04",
+      "source_type": "earnings call transcript",
+      "note": "Q4 detail: 'Turning to AI systems, orders were strong in the fourth quarter, reaching $1.9 billion, largely fueled by demand for sovereign customers.'"
+    },
+    {
+      "id": "AI-12",
+      "topic": "AI demand risk (10-K)",
+      "claim": "HPE's 10-K states AI demand is lumpy and historically concentrated in a small number of large customers and cloud service providers.",
+      "quote": "our AI solutions have historically been purchased primarily by a small number of larger customers and cloud service providers. Sales of AI systems to such customers have caused, and may continue to cause, fluctuations in our results of operations",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-13",
+      "topic": "AI backlog (10-K)",
+      "claim": "The FY2025 10-K notes AI systems demand drove significant AI backlog amid data center space constraints and uneven GPU supply.",
+      "quote": "AI systems demand in the midst of persisting data center space availability constraints continued to drive significant AI backlog. The supply and demand environment for GPUs continues to remain uneven as the market navigates transition to next generation GPUs.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-14",
+      "topic": "AI strategy (10-K)",
+      "claim": "HPE's AI infrastructure strategy focuses on sovereign and enterprise customers, leveraging supercomputing heritage and turnkey AI factory solutions including HPE Private Cloud AI.",
+      "quote": "In AI infrastructure, HPE is focused on sovereign and enterprise customers, leveraging our supercomputing heritage and turnkey AI factory solutions, including HPE Private Cloud AI and scalable AI servers.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-15",
+      "topic": "AI risk factor (10-K)",
+      "claim": "HPE flags AI-specific risks: failing to recoup AI investments, flawed algorithms, reputational harm and evolving regulation such as the EU AI Act.",
+      "quote": "if our AI-related offerings fail to operate as anticipated or as well as competing offerings or otherwise do not meet customer needs or if we are unable to bring AI-related offerings to market as effectively as our competitors, we may fail to recoup our investments in AI",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-16",
+      "topic": "Segment realignment",
+      "claim": "From FY2026 HPE reports a 'Cloud & AI' segment formed by merging Server, Hybrid Cloud and Financial Services.",
+      "quote": "Effective November 1, 2025, HPE implemented an organizational change by (i) merging the Server, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & Artificial Intelligence (\"AI\")",
+      "source_title": "HPE Form 10-Q for quarter ended July 31, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
+      "date": "2026-09-03",
+      "source_type": "10-Q"
+    },
+    {
+      "id": "AI-17",
+      "topic": "Cloud & AI segment results",
+      "claim": "Cloud & AI revenue was $9.0B in Q3 FY2026, up 25.4% YoY, with 17.0% operating margin (vs 7.0% a year earlier); Server revenue $6.8B (+35.3%).",
+      "quote": "Cloud & AI revenue was $9.0 billion, up 25.4% from the prior-year period, with 17.0% operating profit margin, compared to 7.0% from the prior-year period.",
+      "source_title": "HPE reports fiscal 2026 third quarter results (8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/ex-991x922026x8k.htm",
+      "date": "2026-09-02",
+      "source_type": "earnings release"
+    },
+    {
+      "id": "AI-18",
+      "topic": "Server pricing / memory supply",
+      "claim": "Q3 FY2026 server revenue growth was driven mainly by higher average selling prices from memory and SSD commodity price increases; HPE cites a worldwide memory shortage linked to AI data center expansion.",
+      "quote": "The increase in average selling price was primarily driven by commodity price increases, especially memory and SSDs.",
+      "source_title": "HPE Form 10-Q for quarter ended July 31, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
+      "date": "2026-09-03",
+      "source_type": "10-Q",
+      "note": "10-Q also: 'We are affected by the worldwide shortage in memory components ... primarily due to the accelerating growth in AI usage and demand and the related rapid expansion in AI data centers'"
+    },
+    {
+      "id": "AI-19",
+      "topic": "HPE Private Cloud AI - launch",
+      "claim": "HPE Private Cloud AI was announced June 18, 2024 at HPE Discover as the key offering of 'NVIDIA AI Computing by HPE', co-developed with NVIDIA.",
+      "quote": "Among the portfolio's key offerings is HPE Private Cloud AI, a first-of-its-kind solution that provides the deepest integration to date of NVIDIA AI computing, networking and software with HPE's AI storage, compute and the HPE GreenLake cloud.",
+      "source_title": "Hewlett Packard Enterprise and NVIDIA Announce 'NVIDIA AI Computing by HPE' to Accelerate Generative AI Industrial Revolution (NVIDIA Newsroom joint release)",
+      "url": "https://nvidianews.nvidia.com/news/hpe-nvidia-ai-computing-generative-ai",
+      "date": "2024-06-18",
+      "source_type": "press release"
+    },
+    {
+      "id": "AI-20",
+      "topic": "HPE Private Cloud AI - stack",
+      "claim": "Private Cloud AI's software foundation is NVIDIA AI Enterprise (incl. NIM microservices) plus HPE AI Essentials; infrastructure includes NVIDIA Spectrum-X Ethernet, HPE GreenLake for File Storage and HPE ProLiant servers; offered in four right-sized configurations.",
+      "quote": "HPE Private Cloud AI delivers a fully integrated AI infrastructure stack that includes NVIDIA Spectrum-X Ethernet networking, HPE GreenLake for File Storage and HPE ProLiant servers with support for NVIDIA L40S, NVIDIA H100 NVL Tensor Core GPUs and the NVIDIA GH200 NVL2 platform.",
+      "source_title": "Hewlett Packard Enterprise and NVIDIA Announce 'NVIDIA AI Computing by HPE' to Accelerate Generative AI Industrial Revolution (NVIDIA Newsroom joint release)",
+      "url": "https://nvidianews.nvidia.com/news/hpe-nvidia-ai-computing-generative-ai",
+      "date": "2024-06-18",
+      "source_type": "press release",
+      "note": "Release said Private Cloud AI 'is expected to be generally available in the fall' (2024)."
+    },
+    {
+      "id": "AI-21",
+      "topic": "NVIDIA partnership / GTM",
+      "claim": "NVIDIA AI Computing by HPE is sold via a joint go-to-market including system integrators Deloitte, HCLTech, Infosys, TCS and Wipro.",
+      "quote": "All NVIDIA AI Computing by HPE offerings and services will be available through a joint go-to-market strategy that spans sales teams and channel partners, training and a global network of system integrators — including Deloitte, HCLTech, Infosys, TCS and Wipro",
+      "source_title": "Hewlett Packard Enterprise and NVIDIA Announce 'NVIDIA AI Computing by HPE' to Accelerate Generative AI Industrial Revolution (NVIDIA Newsroom joint release)",
+      "url": "https://nvidianews.nvidia.com/news/hpe-nvidia-ai-computing-generative-ai",
+      "date": "2024-06-18",
+      "source_type": "press release"
+    },
+    {
+      "id": "AI-22",
+      "topic": "HPE OpsRamp",
+      "claim": "OpsRamp (acquired May 2, 2023 for ~$307M fair value consideration) provides observability/AIOps integrated with GreenLake; an OpsRamp AI copilot powers Private Cloud AI operations.",
+      "quote": "OpsRamp now provides observability for the end-to-end NVIDIA accelerated computing stack, including NVIDIA NIM and AI software, NVIDIA Tensor Core GPUs and AI clusters as well as NVIDIA Quantum InfiniBand and NVIDIA Spectrum Ethernet switches.",
+      "source_title": "Hewlett Packard Enterprise and NVIDIA Announce 'NVIDIA AI Computing by HPE' to Accelerate Generative AI Industrial Revolution (NVIDIA Newsroom joint release)",
+      "url": "https://nvidianews.nvidia.com/news/hpe-nvidia-ai-computing-generative-ai",
+      "date": "2024-06-18",
+      "source_type": "press release",
+      "note": "Acquisition details from FY2025 10-K: 'On May 2, 2023, the Company completed the acquisition of OpsRamp ... The acquisition date fair value consideration of $307 million'"
+    },
+    {
+      "id": "AI-23",
+      "topic": "HPE Private Cloud AI - 2026 expansion",
+      "claim": "At HPE Discover Las Vegas (June 2026) HPE and NVIDIA expanded the HPE AI Factory with NVIDIA, including NVIDIA Vera CPU (DL394 Gen12, available 2027) and NVIDIA Agent Toolkit for HPE Private Cloud AI.",
+      "quote": "The HPE ProLiant Compute DL394 Gen12 with the NVIDIA Vera CPU will be available in 2027 with HPE Private Cloud AI, a turnkey AI factory co-engineered with NVIDIA.",
+      "source_title": "HPE AI Factory With NVIDIA Expands for the Era of Agents (NVIDIA Blog)",
+      "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+      "date": "2026-06-16",
+      "source_type": "partner blog",
+      "note": "NVIDIA-authored blog, not an HPE release."
+    },
+    {
+      "id": "AI-24",
+      "topic": "HPE Private Cloud AI - traction",
+      "claim": "Private Cloud AI orders rose triple digits YoY in Q3 FY2026; HPE claims (internal analysis) up to 60% lower token cost vs public cloud.",
+      "quote": "PCAI orders increased triple-digits in Q3 as customers are adopting our AI factory platform to support agentic AI and inferencing initiatives.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript",
+      "note": "Token-cost claim: 'According to our own internal analysis, our PCAI offering can reduce token costs versus the public cloud by up to 60%.' Slide 14 footnote lists assumptions (5-year term, 80% utilization, 8B-parameter model etc.). Company claim, not independently verified."
+    },
+    {
+      "id": "AI-25",
+      "topic": "HPE Private Cloud AI - customers",
+      "claim": "HPE closed FY2025 with approximately 100 new Private Cloud AI logos; PCAI orders more than doubled sequentially in Q4 FY2025.",
+      "quote": "We are also seeing good growth in private cloud AI orders, which more than doubled sequentially, and we closed the year with approximately 100 new logos in this space.",
+      "source_title": "HPE Q4 FY2025 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q4-2025/q4-earnings-transcript-final.pdf",
+      "date": "2025-12-04",
+      "source_type": "earnings call transcript"
+    },
+    {
+      "id": "AI-26",
+      "topic": "HPE Private Cloud AI - definition",
+      "claim": "HPE's developer portal describes Private Cloud AI as a purpose-built, HPE/NVIDIA co-developed solution focused on inferencing, RAG and fine-tuning, managed through HPE GreenLake.",
+      "quote": "HPE Private Cloud AI is a purpose-built solution designed to provide fast and easy deployment of private AI applications with a focus on inferencing, Retrieval-Augmented Generation (RAG), and fine-tuning.",
+      "source_title": "HPE Private Cloud AI | HPE Developer Portal",
+      "url": "https://developer.hpe.com/platform/hpe-private-cloud-ai/home/",
+      "date": "accessed 2026-09-25",
+      "source_type": "product page"
+    },
+    {
+      "id": "AI-27",
+      "topic": "GreenLake customers",
+      "claim": "GreenLake customer count grew 18% to 52,000 in Q3 FY2026 from 44,000 a year earlier.",
+      "quote": "In Q3, the number of GreenLake customers grew 18% to 52,000 up from 44,000 a year ago.",
+      "source_title": "HPE Q3 FY2026 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-transcript.pdf",
+      "date": "2026-09-02",
+      "source_type": "earnings call transcript",
+      "note": "Speaker: Antonio Neri. Q4 FY25 call: ~7,000 customers added in FY25, ending with ~46,000."
+    },
+    {
+      "id": "AI-28",
+      "topic": "ARR",
+      "claim": "HPE's ARR was $3.151B at FY2025 year-end, up 63% YoY (from $1.938B), mainly due to Juniper.",
+      "quote": "The 63% year over year increase in ARR was primarily due to growth in the Networking segment due to the Merger and an expanding customer installed base.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K",
+      "note": "Earnings release rounds to $3.2B, up 63% (62% constant currency). ARR not disclosed in the FY2026 quarterly releases reviewed."
+    },
+    {
+      "id": "AI-29",
+      "topic": "GreenLake (10-K)",
+      "claim": "The 10-K describes HPE GreenLake cloud as a centerpiece of HPE's strategy, offering a hybrid experience with pay-per-use consumption.",
+      "quote": "The HPE GreenLake cloud is designed to deliver a seamless hybrid experience with true pay-per-use consumption and automated scalability.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-30",
+      "topic": "Juniper acquisition - announcement",
+      "claim": "HPE agreed on Jan 9, 2024 to acquire Juniper Networks for $40.00 per share in cash, an equity value of ~$14B.",
+      "quote": "HPE will acquire Juniper in an all-cash transaction for $40.00 per share, representing an equity value of approximately $14 billion.",
+      "source_title": "HPE to Acquire Juniper Networks to Accelerate AI-Driven Innovation (8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036124001613/ny20018436x1_ex99-1.htm",
+      "date": "2024-01-09",
+      "source_type": "press release"
+    },
+    {
+      "id": "AI-31",
+      "topic": "Juniper acquisition - close",
+      "claim": "HPE completed the Juniper Networks acquisition on July 2, 2025; the transaction doubles HPE's networking business.",
+      "quote": "HOUSTON – July 2, 2025 – HPE (NYSE: HPE) today announced the successful completion of its previously announced acquisition of Juniper Networks, Inc., a leader in AI-native networks.",
+      "source_title": "Hewlett Packard Enterprise closes acquisition of Juniper Networks (8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036125024519/ef20051378_ex99-1.htm",
+      "date": "2025-07-02",
+      "source_type": "press release",
+      "note": "FY2025 10-K: cash consideration of approximately $13.4 billion."
+    },
+    {
+      "id": "AI-32",
+      "topic": "Juniper - DOJ settlement / Mist AI",
+      "claim": "The June 28, 2025 DOJ settlement required HPE to divest its Instant On business and facilitate limited access to Juniper's Mist AIOps technology.",
+      "quote": "As part of the settlement, HPE has agreed to divest its global Instant On campus and branch business. After close, HPE will facilitate limited access to Juniper's advanced Mist AIOps technology.",
+      "source_title": "HPE and Juniper Networks reach settlement with U.S. Department of Justice (8-K Ex. 99.2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036125024519/ef20051378_ex99-2.htm",
+      "date": "2025-06-28",
+      "source_type": "press release",
+      "note": "Q3 FY26 call: a US federal court approved the settlement in August 2026."
+    },
+    {
+      "id": "AI-33",
+      "topic": "Juniper synergies",
+      "claim": "HPE targets at least $600M of Juniper cost synergies by FY2028 (requiring ~$800M investment).",
+      "quote": "the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies will require approximately $800 million of investment",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-34",
+      "topic": "Cray / supercomputing",
+      "claim": "HPE Cray EX systems power the three exascale systems on the Nov 2024 TOP500 list: El Capitan (#1, 1.742 EFlop/s), Frontier (#2) and Aurora (#3).",
+      "quote": "El Capitan - HPE Cray EX255a, AMD 4th Gen EPYC 24C 1.8GHz, AMD Instinct MI300A, Slingshot-11, TOSS",
+      "source_title": "TOP500 List - November 2024",
+      "url": "https://www.top500.org/lists/top500/2024/11/",
+      "date": "2024-11",
+      "source_type": "third-party benchmark list",
+      "note": "Aurora is listed with Intel as system vendor but built on HPE Cray EX - Intel Exascale Compute Blade. Rankings may have changed on later TOP500 lists (not checked)."
+    },
+    {
+      "id": "AI-35",
+      "topic": "Cray / supercomputing (10-K)",
+      "claim": "The 10-K cites market-leading supercomputing (HPE Cray EX) and fanless direct liquid cooling as AI differentiators.",
+      "quote": "We complement this expertise with our market-leading supercomputing portfolio of HPE Cray EX solutions and systems.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-36",
+      "topic": "HPE Alletra storage",
+      "claim": "HPE shipped over 7,400 Alletra MP storage arrays by end of FY2025 (more than doubling YoY); Alletra MP orders and revenue grew strong double digits in Q3 FY2026.",
+      "quote": "We have now shipped over 7,400 Alletra MP Storage arrays, more than doubling year-over-year.",
+      "source_title": "HPE Q4 FY2025 earnings conference call transcript",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q4-2025/q4-earnings-transcript-final.pdf",
+      "date": "2025-12-04",
+      "source_type": "earnings call transcript",
+      "note": "Q3 FY26 call: 'Alletra MP orders and revenue increased strong double-digits year-over-year.'"
+    },
+    {
+      "id": "AI-37",
+      "topic": "HPE storage for AI",
+      "claim": "HPE Alletra Storage MP X10000 achieved foundation-level NVIDIA-Certified Storage (per NVIDIA, June 2026).",
+      "quote": "HPE Alletra Storage MP X10000 — which achieved the foundation level of NVIDIA-Certified Storage — automatically applies metadata and governance policies to prepare unstructured data for AI pipelines",
+      "source_title": "HPE AI Factory With NVIDIA Expands for the Era of Agents (NVIDIA Blog)",
+      "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+      "date": "2026-06-16",
+      "source_type": "partner blog"
+    },
+    {
+      "id": "AI-38",
+      "topic": "HPE services",
+      "claim": "HPE's Advisory and Professional Services (Corporate Investments and Other) offers consultative-led services and implementation; HPE Financial Services offers financing to help customers adopt AI.",
+      "quote": "This business offers customers the ability to accelerate adoption of AI through financing options from us as well as through IT life cycle services.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-39",
+      "topic": "Sustainability / AI energy",
+      "claim": "HPE's 10-K notes that rising AI compute demand increases energy consumption and presents decarbonization challenges; most HPE GHG emissions come from customer product use.",
+      "quote": "The rising demand for compute-intensive technologies—particularly those that support artificial intelligence—is contributing to increased energy consumption across the technology sector, presenting decarbonization challenges for leading solutions providers such as HPE.",
+      "source_title": "HPE Form 10-K for fiscal year ended October 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "date": "2025-12-18",
+      "source_type": "10-K"
+    },
+    {
+      "id": "AI-40",
+      "topic": "Strategy / SAM 2025",
+      "claim": "At its Oct 15, 2025 Securities Analyst Meeting, HPE said it intends to capture AI infrastructure growth profitably with a focus on enterprise and sovereign customers.",
+      "quote": "HPE intends to profitably capture explosive AI infrastructure growth with a focus on enterprise and sovereign customer segments",
+      "source_title": "HPE details strategic and execution priorities ... at HPE Securities Analyst Meeting 2025 (8-K Ex. 99.2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000111/ex-992x10152025x8ksam.htm",
+      "date": "2025-10-15",
+      "source_type": "press release"
+    }
+  ]
+}
