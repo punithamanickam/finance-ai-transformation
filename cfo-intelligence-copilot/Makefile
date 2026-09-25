@@ -1,4 +1,4 @@
-.PHONY: install data test app api report demo diagrams all
+.PHONY: install data test app api report demo diagrams web all
 
 install:
 	pip install -r requirements.txt
@@ -24,4 +24,7 @@ demo:
 diagrams:
 	python -m scripts.generate_diagrams
 
-all: data test report demo diagrams
+web:         ## static HTML/JS console with embedded engine outputs
+	python -m scripts.export_web
+
+all: data test report demo diagrams web

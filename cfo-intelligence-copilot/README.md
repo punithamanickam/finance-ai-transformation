@@ -87,6 +87,7 @@ streamlit run app/streamlit_app.py        # UI
 uvicorn src.api.main:app --reload         # REST API (/ask, /metrics, /variance, /driver-tree, /scenario, /report, /audit)
 python -m src.reporting.report            # reports/CFO_Executive_Report.html
 python -m scripts.run_demo                # docs/demo_transcript.md
+python -m scripts.export_web              # web/cfo-copilot-console.html (static HTML/JS console, no server)
 ```
 
 The normalised financial model (`data/processed/financial_facts.csv`) is committed, so the dashboard, calculations and
@@ -106,6 +107,7 @@ narrative. With `ANTHROPIC_API_KEY` set, Claude writes the narrative, subject to
 | [`docs/demo-script.md`](docs/demo-script.md) · [`docs/demo_transcript.md`](docs/demo_transcript.md) | Presenter script and a machine-generated transcript |
 | [`docs/enterprise-roadmap.md`](docs/enterprise-roadmap.md) | Enterprise extension and phased implementation roadmap |
 | [`reports/CFO_Executive_Report.html`](reports/CFO_Executive_Report.html) | Consulting-style executive report |
+| [`web/cfo-copilot-console.html`](web/cfo-copilot-console.html) | Standalone HTML/JavaScript console: dashboard, copilot answers with sources, driver-tree drill-down, live scenario lab, evidence explorer, governance and audit. Open it in any browser; the scenario engine re-runs in JS and self-checks against the Python engine |
 | [`data/`](data/README.md) | Source registry, source cards, processed model; how to obtain the filings |
 | `src/` | `ingestion` · `extraction` · `financial_model` · `calculations` · `retrieval` · `copilot` · `governance` · `reporting` · `api` |
 | `app/` | Streamlit UI (`dashboard/`, `chat/`) |
