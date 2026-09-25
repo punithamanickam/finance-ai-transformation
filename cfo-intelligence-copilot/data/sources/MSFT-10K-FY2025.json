@@ -1,0 +1,12 @@
+{
+  "source_id": "MSFT-10K-FY2025",
+  "document_name": "Microsoft Corporation Form 10-K for the fiscal year ended June 30 2025",
+  "source_type": "SEC filing (Form 10-K; Inline XBRL)",
+  "reporting_period": "FY2025 (Jul 1 2024 - Jun 30 2025)",
+  "filing_date": "2025-07-30",
+  "retrieval_date": "2026-09-25",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+  "accession_number": "0000950170-25-100235",
+  "role": "comparative",
+  "notes": "Used for FY2024 balance sheet and FY2023 comparatives and for cross-filing consistency checks. FY2026 10-K values take precedence for overlapping periods."
+}

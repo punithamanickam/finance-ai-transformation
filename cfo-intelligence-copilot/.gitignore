@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+# raw public filings are downloaded at build time, not redistributed
+data/raw/*
+!data/raw/.gitkeep
+# derived text corpus / index built from raw filings
+data/processed/document_chunks.jsonl
+data/processed/retrieval_index.pkl
+data/processed/cfo_copilot.db
+data/processed/xbrl_facts.csv
+data/audit/

@@ -1,0 +1,531 @@
+{
+  "_comment": "Maps canonical financial-model metrics to XBRL concepts/dimensions in the filings. No values are stored here - values are always extracted from the source documents. 'prefer_table' is a case-insensitive substring of the table title used to pick the primary statement occurrence when a fact is repeated in the filing (e.g. MD&A tables, notes).",
+  "company": {
+    "name": "Microsoft Corporation",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "fiscal_year_end_month": 6,
+    "currency": "USD"
+  },
+  "segments": [
+    {
+      "segment_id": "PBP",
+      "name": "Productivity and Business Processes",
+      "member": "msft:ProductivityAndBusinessProcessesMember"
+    },
+    {
+      "segment_id": "IC",
+      "name": "Intelligent Cloud",
+      "member": "msft:IntelligentCloudMember"
+    },
+    {
+      "segment_id": "MPC",
+      "name": "More Personal Computing",
+      "member": "msft:MorePersonalComputingMember"
+    }
+  ],
+  "segment_metrics": [
+    {
+      "metric_id": "segment_revenue",
+      "label": "Segment revenue",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    {
+      "metric_id": "segment_cost_of_revenue",
+      "label": "Segment cost of revenue",
+      "concept": "us-gaap:CostOfGoodsAndServicesSold"
+    },
+    {
+      "metric_id": "segment_operating_expenses",
+      "label": "Segment operating expenses",
+      "concept": "us-gaap:OperatingExpenses"
+    },
+    {
+      "metric_id": "segment_operating_income",
+      "label": "Segment operating income",
+      "concept": "us-gaap:OperatingIncomeLoss"
+    }
+  ],
+  "segment_axis": "us-gaap:StatementBusinessSegmentsAxis",
+  "product_axis": "srt:ProductOrServiceAxis",
+  "geo_axis": "srt:StatementGeographicalAxis",
+  "revenue_concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+  "metrics": [
+    {
+      "metric_id": "revenue",
+      "label": "Total revenue",
+      "statement": "Income Statement",
+      "section": "Revenue",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "revenue_product",
+      "label": "Product revenue",
+      "statement": "Income Statement",
+      "section": "Revenue",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": "srt:ProductOrServiceAxis=us-gaap:ProductMember",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "revenue_service",
+      "label": "Service and other revenue",
+      "statement": "Income Statement",
+      "section": "Revenue",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": "srt:ProductOrServiceAxis=us-gaap:ServiceOtherMember",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "cost_of_revenue",
+      "label": "Total cost of revenue",
+      "statement": "Income Statement",
+      "section": "Cost of revenue",
+      "concept": "us-gaap:CostOfGoodsAndServicesSold",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "cost_of_revenue_product",
+      "label": "Cost of revenue - product",
+      "statement": "Income Statement",
+      "section": "Cost of revenue",
+      "concept": "us-gaap:CostOfGoodsAndServicesSold",
+      "dimensions": "srt:ProductOrServiceAxis=us-gaap:ProductMember",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "cost_of_revenue_service",
+      "label": "Cost of revenue - service and other",
+      "statement": "Income Statement",
+      "section": "Cost of revenue",
+      "concept": "us-gaap:CostOfGoodsAndServicesSold",
+      "dimensions": "srt:ProductOrServiceAxis=us-gaap:ServiceOtherMember",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "gross_profit",
+      "label": "Gross margin (gross profit)",
+      "statement": "Income Statement",
+      "section": "Gross margin",
+      "concept": "us-gaap:GrossProfit",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "research_and_development",
+      "label": "Research and development",
+      "statement": "Income Statement",
+      "section": "Operating expenses",
+      "concept": "us-gaap:ResearchAndDevelopmentExpense",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "sales_and_marketing",
+      "label": "Sales and marketing",
+      "statement": "Income Statement",
+      "section": "Operating expenses",
+      "concept": "us-gaap:SellingAndMarketingExpense",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "general_and_administrative",
+      "label": "General and administrative",
+      "statement": "Income Statement",
+      "section": "Operating expenses",
+      "concept": "us-gaap:GeneralAndAdministrativeExpense",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "operating_income",
+      "label": "Operating income",
+      "statement": "Income Statement",
+      "section": "Operating income",
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "other_income_expense",
+      "label": "Other income (expense), net",
+      "statement": "Income Statement",
+      "section": "Non-operating",
+      "concept": "us-gaap:NonoperatingIncomeExpense",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "income_before_tax",
+      "label": "Income before income taxes",
+      "statement": "Income Statement",
+      "section": "Pre-tax income",
+      "concept": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "income_tax",
+      "label": "Provision for income taxes",
+      "statement": "Income Statement",
+      "section": "Income taxes",
+      "concept": "us-gaap:IncomeTaxExpenseBenefit",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "net_income",
+      "label": "Net income",
+      "statement": "Income Statement",
+      "section": "Net income",
+      "concept": "us-gaap:NetIncomeLoss",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "eps_basic",
+      "label": "Earnings per share - basic",
+      "statement": "Income Statement",
+      "section": "Earnings per share",
+      "concept": "us-gaap:EarningsPerShareBasic",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "eps_diluted",
+      "label": "Earnings per share - diluted",
+      "statement": "Income Statement",
+      "section": "Earnings per share",
+      "concept": "us-gaap:EarningsPerShareDiluted",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "diluted_shares",
+      "label": "Weighted average diluted shares",
+      "statement": "Income Statement",
+      "section": "Earnings per share",
+      "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+      "prefer_table": "INCOME STATEMENTS"
+    },
+    {
+      "metric_id": "effective_tax_rate",
+      "label": "Effective tax rate",
+      "statement": "Notes",
+      "section": "Note - Income Taxes",
+      "concept": "us-gaap:EffectiveIncomeTaxRateContinuingOperations",
+      "prefer_table": ""
+    },
+    {
+      "metric_id": "cash_and_equivalents",
+      "label": "Cash and cash equivalents",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "short_term_investments",
+      "label": "Short-term investments",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:ShortTermInvestments",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "cash_and_short_term_investments",
+      "label": "Total cash, cash equivalents, and short-term investments",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:CashCashEquivalentsAndShortTermInvestments",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "accounts_receivable",
+      "label": "Accounts receivable, net",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:AccountsReceivableNetCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "inventory",
+      "label": "Inventories",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:InventoryNet",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "current_assets",
+      "label": "Total current assets",
+      "statement": "Balance Sheet",
+      "section": "Current assets",
+      "concept": "us-gaap:AssetsCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "property_and_equipment",
+      "label": "Property and equipment, net",
+      "statement": "Balance Sheet",
+      "section": "Non-current assets",
+      "concept": "us-gaap:PropertyPlantAndEquipmentNet",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "equity_investments",
+      "label": "Equity and other investments",
+      "statement": "Balance Sheet",
+      "section": "Non-current assets",
+      "concept": "us-gaap:LongTermInvestments",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "goodwill",
+      "label": "Goodwill",
+      "statement": "Balance Sheet",
+      "section": "Non-current assets",
+      "concept": "us-gaap:Goodwill",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "intangible_assets",
+      "label": "Intangible assets, net",
+      "statement": "Balance Sheet",
+      "section": "Non-current assets",
+      "concept": "us-gaap:FiniteLivedIntangibleAssetsNet",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "total_assets",
+      "label": "Total assets",
+      "statement": "Balance Sheet",
+      "section": "Assets",
+      "concept": "us-gaap:Assets",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "accounts_payable",
+      "label": "Accounts payable",
+      "statement": "Balance Sheet",
+      "section": "Current liabilities",
+      "concept": "us-gaap:AccountsPayableCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "short_term_debt",
+      "label": "Current portion of long-term debt (short-term debt)",
+      "statement": "Balance Sheet",
+      "section": "Current liabilities",
+      "concept": "us-gaap:LongTermDebtCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "short_term_unearned_revenue",
+      "label": "Short-term unearned revenue",
+      "statement": "Balance Sheet",
+      "section": "Current liabilities",
+      "concept": "us-gaap:ContractWithCustomerLiabilityCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "current_liabilities",
+      "label": "Total current liabilities",
+      "statement": "Balance Sheet",
+      "section": "Current liabilities",
+      "concept": "us-gaap:LiabilitiesCurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "long_term_debt",
+      "label": "Long-term debt",
+      "statement": "Balance Sheet",
+      "section": "Non-current liabilities",
+      "concept": "us-gaap:LongTermDebtNoncurrent",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "total_liabilities",
+      "label": "Total liabilities",
+      "statement": "Balance Sheet",
+      "section": "Liabilities",
+      "concept": "us-gaap:Liabilities",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "shareholders_equity",
+      "label": "Total stockholders' equity",
+      "statement": "Balance Sheet",
+      "section": "Equity",
+      "concept": "us-gaap:StockholdersEquity",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "total_liabilities_and_equity",
+      "label": "Total liabilities and stockholders' equity",
+      "statement": "Balance Sheet",
+      "section": "Totals",
+      "concept": "us-gaap:LiabilitiesAndStockholdersEquity",
+      "period_type": "instant",
+      "prefer_table": "BALANCE SHEETS"
+    },
+    {
+      "metric_id": "operating_cash_flow",
+      "label": "Net cash from operations",
+      "statement": "Cash Flow Statement",
+      "section": "Operations",
+      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "depreciation_amortization_other",
+      "label": "Depreciation, amortization, and other",
+      "statement": "Cash Flow Statement",
+      "section": "Operations",
+      "concept": "msft:DepreciationAmortizationAndOther",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "stock_based_compensation",
+      "label": "Stock-based compensation expense",
+      "statement": "Cash Flow Statement",
+      "section": "Operations",
+      "concept": "us-gaap:ShareBasedCompensation",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "capital_expenditure",
+      "label": "Additions to property and equipment (capex)",
+      "statement": "Cash Flow Statement",
+      "section": "Investing",
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "prefer_table": "CASH FLOWS",
+      "note": "Reported as a cash outflow; stored as a positive payment amount per XBRL semantics."
+    },
+    {
+      "metric_id": "acquisitions",
+      "label": "Acquisitions, net of cash acquired, and purchases of intangible and other assets",
+      "statement": "Cash Flow Statement",
+      "section": "Investing",
+      "concept": "msft:AcquisitionsNetOfCashAcquiredAndPurchasesOfIntangibleAndOtherAssets",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "investing_cash_flow",
+      "label": "Net cash used in investing",
+      "statement": "Cash Flow Statement",
+      "section": "Investing",
+      "concept": "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "share_repurchases",
+      "label": "Common stock repurchased",
+      "statement": "Cash Flow Statement",
+      "section": "Financing",
+      "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "dividends_paid",
+      "label": "Common stock cash dividends paid",
+      "statement": "Cash Flow Statement",
+      "section": "Financing",
+      "concept": "us-gaap:PaymentsOfDividendsCommonStock",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "financing_cash_flow",
+      "label": "Net cash used in financing",
+      "statement": "Cash Flow Statement",
+      "section": "Financing",
+      "concept": "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "fx_effect_on_cash",
+      "label": "Effect of foreign exchange rates on cash",
+      "statement": "Cash Flow Statement",
+      "section": "Reconciliation",
+      "concept": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "net_change_in_cash",
+      "label": "Net change in cash and cash equivalents",
+      "statement": "Cash Flow Statement",
+      "section": "Reconciliation",
+      "concept": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "cash_end_of_period",
+      "label": "Cash and cash equivalents, end of period",
+      "statement": "Cash Flow Statement",
+      "section": "Reconciliation",
+      "concept": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+      "period_type": "instant",
+      "prefer_table": "CASH FLOWS"
+    },
+    {
+      "metric_id": "microsoft_cloud_revenue",
+      "label": "Microsoft Cloud revenue",
+      "statement": "Notes",
+      "section": "Note - Segment Information and Geographic Data",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": "msft:ProductsOrServicesSecondaryCategorizationAxis=msft:MicrosoftCloudMember",
+      "prefer_table": ""
+    },
+    {
+      "metric_id": "revenue_us",
+      "label": "Revenue - United States",
+      "statement": "Notes",
+      "section": "Note - Segment Information and Geographic Data",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": "srt:StatementGeographicalAxis=country:US",
+      "prefer_table": ""
+    },
+    {
+      "metric_id": "revenue_other_countries",
+      "label": "Revenue - Other countries",
+      "statement": "Notes",
+      "section": "Note - Segment Information and Geographic Data",
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": "srt:StatementGeographicalAxis=us-gaap:NonUsMember",
+      "prefer_table": ""
+    }
+  ],
+  "text_metrics": [
+    {
+      "metric_id": "employees",
+      "label": "Full-time employees",
+      "statement": "Business (Item 1)",
+      "section": "Human Capital Resources",
+      "pattern": "As of June 30, (?P<year>20\\d\\d), we employed approximately (?P<value>[\\d,]+) people on a full-time basis",
+      "unit": "people",
+      "currency": "",
+      "note": "Not XBRL-tagged; extracted from narrative text with a deterministic pattern. Lower confidence than tagged facts."
+    }
+  ],
+  "offering_segment_map": {
+    "_source": "Segment composition as described in Note 18 - Segment Information and Geographic Data (FY2026 10-K, page 83). Used only for driver-tree drill-down; any unreconciled difference versus reported segment revenue is shown explicitly.",
+    "MicrosoftThreeSixFiveCommercialProductsAndCloudServicesMember": "PBP",
+    "MicrosoftThreeSixFiveConsumerProductsAndCloudServicesMember": "PBP",
+    "LinkedInCorporationMember": "PBP",
+    "DynamicsProductsAndCloudServicesMember": "PBP",
+    "ServerProductsAndCloudServicesMember": "IC",
+    "EnterpriseAndPartnerServicesMember": "IC",
+    "WindowsAndDevicesMember": "MPC",
+    "XBOXMember": "MPC",
+    "SearchAdvertisingMember": "MPC"
+  }
+}

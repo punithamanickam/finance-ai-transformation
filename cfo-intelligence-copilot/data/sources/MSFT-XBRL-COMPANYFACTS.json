@@ -1,0 +1,12 @@
+{
+  "source_id": "MSFT-XBRL-COMPANYFACTS",
+  "document_name": "SEC XBRL Company Facts API - Microsoft",
+  "source_type": "SEC structured data API (JSON)",
+  "reporting_period": "All filed periods",
+  "filing_date": "",
+  "retrieval_date": "2026-09-25",
+  "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+  "accession_number": "",
+  "role": "validation",
+  "notes": "Optional independent cross-check of extracted values against SEC's aggregated XBRL facts."
+}

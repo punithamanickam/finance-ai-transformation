@@ -1,0 +1,12 @@
+{
+  "source_id": "MSFT-IR",
+  "document_name": "Microsoft Investor Relations - annual reports and earnings materials",
+  "source_type": "Company investor relations website",
+  "reporting_period": "Multiple",
+  "filing_date": "",
+  "retrieval_date": "2026-09-25",
+  "source_url": "https://www.microsoft.com/en-us/investor",
+  "accession_number": "",
+  "role": "reference",
+  "notes": "Reference only. Annual report / earnings slides can be downloaded manually; the site blocks automated retrieval so SEC EDGAR copies are used for ingestion."
+}
